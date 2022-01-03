@@ -3,9 +3,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 section {
-height: 500px;
 background-color: white;
-border: solid black 1px;
 
 }
 .hero {
@@ -39,6 +37,10 @@ li {
 h1 {
     font-size: 80px;
     margin: 0px;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p {
@@ -89,3 +91,38 @@ margin-bottom: 200px;
 .social {
     margin: 20px;
 }
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: 80px; 
+}
+
+.headshoot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshoot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(194, 191, 191);
+
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
